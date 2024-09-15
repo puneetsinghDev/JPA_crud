@@ -1,0 +1,46 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.Hcl.JPA</groupId>
+  <artifactId>Crud_JPA_SpringBoot</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+  <dependencies>
+	
+	<!-- MySQL connector -->
+<dependency>
+<groupId>mysql</groupId>
+<artifactId>mysql-connector-java</artifactId>
+<version>8.0.11</version>
+</dependency>
+<!-- Hibernate 5.2.6 Final -->
+<dependency>
+<groupId>org.hibernate</groupId>
+<artifactId>hibernate-core</artifactId>
+<version>5.2.6.Final</version>
+</dependency>
+
+<dependency>
+<groupId>jakarta.xml.bind</groupId>
+<artifactId>jakarta.xml.bind-api</artifactId>
+<version>2.3.2</version>
+</dependency>
+
+ 
+
+ 
+
+       <!-- Runtime, com.sun.xml.bind module -->
+<dependency>
+<groupId>org.glassfish.jaxb</groupId>
+<artifactId>jaxb-runtime</artifactId>
+<version>2.3.2</version>
+</dependency>
+<dependency>
+<groupId>org.javassist</groupId>
+<artifactId>javassist</artifactId>
+<version>3.25.0-GA</version>
+</dependency>  
+	  
+	  
+  </dependencies>
+</project>
